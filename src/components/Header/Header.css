@@ -1,0 +1,30 @@
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header h1{
+    padding: 20px;
+    font-size: 100px;
+  }
+  header nav{
+    display: flex; 
+    background-color: grey;
+    width: 100%;
+    justify-content: center;
+  }
+  header nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 20px 10px;
+    text-align: center; 
+    width: 100px;
+  }
+  header nav a:hover{
+    background-color:coral;
+  }
+  header nav a:active{
+    opacity: 0.7;
+  }
+  

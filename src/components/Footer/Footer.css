@@ -1,0 +1,17 @@
+ 
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    background-color:coral;
+    color: white;
+    align-items: center;
+    justify-content: center;
+  }
+  footer a {
+    text-decoration: none ;
+    color: white;
+  }
+  footer p a:hover{
+     color: brown;
+  }
