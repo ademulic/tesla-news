@@ -2,6 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";  
 import Card from "../Card/Card";
 import "./Home.css";
+import Error from "../Error/Error";
 const Home = () => {
 
     const [news,setNews] = useState([]);
@@ -25,10 +26,11 @@ const Home = () => {
 
     return ( 
         <main> 
-          <h1>TOP NEWS</h1>
+          {!error && <h1>TOP NEWS</h1>}
+          {error && <Error/>}
           <section className="main-news-section">
           
-            {error && <p>404 Couldn't load resources</p>}
+            
             {loading && <p>Loading...</p>}
             {news && news.map((newsArticle,index)=>(
                 <Card newsArticle = {newsArticle} index={index}/> 
