@@ -5,6 +5,7 @@
     display: flex; 
     gap: 10px;
     align-items: center;
+    overflow: hidden;
   }
   
   .news-card .thumbnail-img{
@@ -24,6 +25,7 @@
     flex-direction: column;
     justify-content: space-around;
     height: 100%;
+    overflow: hidden;
   }
   .news-card .news-card-body h3{
     font-weight: bold;
@@ -33,8 +35,12 @@
     text-decoration: none;
     color: black;
   }
+  .news-card .news-card-body a:hover{
+    color: coral;
+  }
   .news-card .news-card-body .news-card-text{
     display: flex;
+    background-color: white;
     justify-content: space-between;
   }
   

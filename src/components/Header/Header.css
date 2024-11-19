@@ -19,7 +19,8 @@ header{
     font-weight: bold;
     padding: 20px 10px;
     text-align: center; 
-    width: 100px;
+    width: 120px;
+    cursor: pointer;
   }
   header nav a:hover{
     background-color:coral;

@@ -1,14 +1,12 @@
 main{
-    padding: 30px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 60%;
-    margin: 0 auto;
-  }
-  .main-news-section{
-    padding: 20px;
+    align-items: center;  
+  } 
+  
+  .main-news-section{ 
     display: grid;
-    gap: 50px; 
-    grid-template-columns: repeat(2,1fr); 
+    gap: 10px; 
+    grid-template-columns: repeat(2, 1fr); 
   }
